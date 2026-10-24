@@ -6,6 +6,10 @@ Independent tracked hands with arm IK, physical rat shaking with native sounds, 
 
 **Tested:** Quest 3, physical Quest controllers, Virtual Desktop, OpenXR and UEVR 1.05. Other headsets/controllers are untested; see [compatibility and troubleshooting](docs/compatibility.md). It's a working community mod, with some rough edges.
 
+[![Watch RATSHAKER VR gameplay on YouTube](https://img.youtube.com/vi/iAd6nirdmec/hqdefault.jpg)](https://youtu.be/iAd6nirdmec)
+
+[Watch the gameplay demo on YouTube](https://youtu.be/iAd6nirdmec).
+
 ## Install
 
 1. Install RATSHAKER and [UEVR](https://github.com/praydog/UEVR/releases). Connect your headset to PC VR.
