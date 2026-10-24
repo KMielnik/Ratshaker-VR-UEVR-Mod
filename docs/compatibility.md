@@ -14,13 +14,15 @@ The release ZIP is a UEVR profile: `config.txt`, two OpenXR binding files and `s
 
 Manual path: `%APPDATA%\UnrealVRMod\Ratshaker-Win64-Shipping\`. Copy the contents of `profile/` from a source checkout, or extract the release there. Do not put the files beside the Steam EXE. The script loads automatically on injection.
 
+If you import while already injected, UEVR reloads configuration but does not reload Lua. `scripts/main.lua` can be installed correctly while LuaLoader still says **No scripts loaded**. Close the game completely, relaunch and inject again. This also applies newly imported OpenXR controller bindings. **LuaLoader → Main → Reset scripts** can reload Lua without restarting, but does not reload those bindings. Confirm the file exists on disk before treating an empty LuaLoader list as an extraction failure.
+
 Before updating, close the game and back up this profile, especially `config.txt`, binding overrides and `data/` calibration. Import overwrites the supplied files and a few baseline settings; no headset resolution or turn angle is prescribed. Remove older Ratshaker mod Lua copies so only one version loads. An older development build may have installed `main.lua`, `ratshaker_vr_ik.lua` or `ratshaker_split_arms.lua`; remove only files you know belong to this mod. Remove old UObjectHook hand attachments from earlier manual experiments if they fight this rig.
 
 To uninstall, close the game, remove this mod's `scripts/main.lua` and restore your backed-up config/bindings. If this was a fresh profile, moving the profile folder aside restores UEVR defaults. Keep `data/` if you want to preserve calibration. The game install and saves are untouched.
 
 ## Common problems
 
-- **Flat game / script absent:** confirm the selected process is Ratshaker-Win64-Shipping, use OpenXR, and check the exact profile path above. Open LuaLoader for errors. Close its menu to enable the rig.
+- **Flat game / no scripts loaded:** check that the profile contains `scripts/main.lua`. If it does, close the game completely, relaunch and inject with OpenXR; importing into an already injected game does not rescan scripts. If the fresh injection still shows no scripts, check the profile path printed in UEVR's log and report any Lua errors. If the file is absent, check the ZIP filename and exact profile path above. Close UEVR's menu to enable the rig.
 - **No pointer:** left grip held, index lifted off trigger. With a different controller profile, disable touch bindings. Use **Retry rig setup** or **Reset scripts** if needed. Report any visual-creation error and whether a death preceded it.
 - **Target turns amber but does nothing:** fill the rat meter, keep pointing, and hold right trigger + grip. Charged actions require spending over 20% of meter capacity while charge remains. Amber means selection, not completed interaction.
 - **Wrong wrists:** use **Calibrate wrist angles after closing menu**, close the menu, then hold both hands forward with palms facing each other and thumbs up. Manual per-hand offsets are also available.

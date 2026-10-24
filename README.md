@@ -13,6 +13,8 @@ Independent tracked hands with arm IK, physical rat shaking with native sounds, 
 3. With the game closed, back up any existing RATSHAKER UEVR profile. Open UEVR and choose **Import Config**, then select the ZIP. Remove older copies of this mod's scripts if upgrading.
 4. Launch RATSHAKER, select **Ratshaker-Win64-Shipping** in UEVR, select **OpenXR**, and click **Inject**. Close UEVR's in-game menu and play normally.
 
+**Already injected when you imported?** Import Config copies the files but does not reload Lua. Close the game completely, relaunch and inject again so Lua and the supplied controller bindings load together.
+
 No UE4SS, DLL installation, game-file patching, Python or Node.js is needed to play. For manual installation, copy the ZIP contents into `%APPDATA%\UnrealVRMod\Ratshaker-Win64-Shipping\` (not the Steam game folder). [Install, update and uninstall details](docs/compatibility.md#installation-details).
 
 ## Controls
