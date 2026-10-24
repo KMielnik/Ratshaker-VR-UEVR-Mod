@@ -1,0 +1,137 @@
+{
+  "bindings": [
+    {
+      "action": "pose",
+      "path": "/user/hand/left/input/aim/pose"
+    },
+    {
+      "action": "grippose",
+      "path": "/user/hand/left/input/grip/pose"
+    },
+    {
+      "action": "trigger",
+      "path": "/user/hand/left/input/trigger/value"
+    },
+    {
+      "action": "grip",
+      "path": "/user/hand/left/input/squeeze/value"
+    },
+    {
+      "action": "squeeze",
+      "path": "/user/hand/left/input/squeeze/value"
+    },
+    {
+      "action": "joystick",
+      "path": "/user/hand/left/input/thumbstick"
+    },
+    {
+      "action": "joystickclick",
+      "path": "/user/hand/left/input/thumbstick/click"
+    },
+    {
+      "action": "haptic",
+      "path": "/user/hand/left/output/haptic"
+    },
+    {
+      "action": "abuttonleft",
+      "path": "/user/hand/left/input/x/click"
+    },
+    {
+      "action": "bbuttonleft",
+      "path": "/user/hand/left/input/y/click"
+    },
+    {
+      "action": "abuttontouchleft",
+      "path": "/user/hand/left/input/trigger/touch"
+    },
+    {
+      "action": "bbuttontouchleft",
+      "path": "/user/hand/left/input/x/touch"
+    },
+    {
+      "action": "bbuttontouchleft",
+      "path": "/user/hand/left/input/y/touch"
+    },
+    {
+      "action": "bbuttontouchleft",
+      "path": "/user/hand/left/input/thumbstick/touch"
+    },
+    {
+      "action": "bbuttontouchleft",
+      "path": "/user/hand/left/input/thumbrest/touch"
+    },
+    {
+      "action": "thumbresttouchleft",
+      "path": "/user/hand/left/input/thumbrest/touch"
+    },
+    {
+      "action": "pose",
+      "path": "/user/hand/right/input/aim/pose"
+    },
+    {
+      "action": "grippose",
+      "path": "/user/hand/right/input/grip/pose"
+    },
+    {
+      "action": "trigger",
+      "path": "/user/hand/right/input/trigger/value"
+    },
+    {
+      "action": "grip",
+      "path": "/user/hand/right/input/squeeze/value"
+    },
+    {
+      "action": "squeeze",
+      "path": "/user/hand/right/input/squeeze/value"
+    },
+    {
+      "action": "joystick",
+      "path": "/user/hand/right/input/thumbstick"
+    },
+    {
+      "action": "joystickclick",
+      "path": "/user/hand/right/input/thumbstick/click"
+    },
+    {
+      "action": "haptic",
+      "path": "/user/hand/right/output/haptic"
+    },
+    {
+      "action": "abuttonright",
+      "path": "/user/hand/right/input/a/click"
+    },
+    {
+      "action": "bbuttonright",
+      "path": "/user/hand/right/input/b/click"
+    },
+    {
+      "action": "abuttontouchright",
+      "path": "/user/hand/right/input/trigger/touch"
+    },
+    {
+      "action": "bbuttontouchright",
+      "path": "/user/hand/right/input/a/touch"
+    },
+    {
+      "action": "bbuttontouchright",
+      "path": "/user/hand/right/input/b/touch"
+    },
+    {
+      "action": "bbuttontouchright",
+      "path": "/user/hand/right/input/thumbstick/touch"
+    },
+    {
+      "action": "bbuttontouchright",
+      "path": "/user/hand/right/input/thumbrest/touch"
+    },
+    {
+      "action": "thumbresttouchright",
+      "path": "/user/hand/right/input/thumbrest/touch"
+    },
+    {
+      "action": "systembutton",
+      "path": "/user/hand/left/input/menu/click"
+    }
+  ],
+  "vector2_associations": []
+}

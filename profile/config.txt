@@ -1,0 +1,14 @@
+VR_AimMethod=0
+VR_DecoupledPitch=true
+VR_RoomscaleMovement=false
+VR_ControllersAllowed=true
+UObjectHook_EnabledAtStartup=true
+UObjectHook_AttachLerpEnabled=false
+UI_FollowView=true
+VR_DPadShifting=false
+VR_MotionControlsInactivityTimer=86400.000000
+LuaLoader_LogToDisk=true
+FrameworkConfig_MenuOpen=false
+FrameworkConfig_RememberMenuState=false
+FrameworkConfig_AdvancedMode=true
+Frontend_RequestedRuntime=openxr_loader.dll

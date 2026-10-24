@@ -1,0 +1,13 @@
+{
+  "name": "ratshaker-vr-uevr-mod",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Development tools for the Ratshaker UEVR Lua mod",
+  "license": "MIT",
+  "scripts": {
+    "build": "python tools/build.py",
+    "test": "python tools/check.py"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "fengari": "0.1.5" }
+}
